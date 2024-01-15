@@ -3,24 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
+    <title>Sign Up</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="form-container">
       <div class="login-container">
-        <h2>Welcome</h2>
-        <p>Choose another method to authenticate</p>
-
+        <h2>Create Account</h2>
+        
         <form action="">
           <p>
-            <label for="username">Username</label>
-            <input type="text" name="username" id="username" />
+            <label for="username">Email Address</label>
+            <input class="input" type="email" name="email" id="email" />
           </p>
 
           <p>
             <label for="password">Password</label>
-            <input type="text" name="password" id="password" />
+            <input class="input" type="text" name="password" id="password" />
           </p>
 
           <div class="options">
@@ -33,10 +32,10 @@
             </div>
           </div>
           <p>
-            <input type="submit" class="btn btn-login" value="Log in" />
+            <input type="submit" class="btn btn-login" value="Create Account" />
           </p>
           <div class="providers">
-            <span>Choose another method to authenticate</span>
+            <span>-OR-</span>
             <button class="btn btn-google">Google</button>
             <button class="btn btn-facebook">Facebook</button>
             <button class="btn btn-twitter">Twitter</button>
@@ -44,7 +43,12 @@
         </form>
       </div>
 
-      <div class="welcome-screen-container"></div>
+      <div class="welcome-screen-container">
+        <div class="image-container">
+            <p>Find 3D Objects, Mockups and Illustrators here.</p>
+            <img src="imagen.jpg" alt="imagen">
+        </div>
+      </div>
     </div>
   </body>
 </html>
