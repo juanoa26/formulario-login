@@ -30,7 +30,6 @@ body {
     font-size: 2.5rem;    
 }
 
-.form-container .login-container >p,
 .form-container .login-container >span {
     text-align: center;
     color: #555;
@@ -70,6 +69,14 @@ body {
     text-decoration: underline;
 }
 
+.form-container .login-container .providers {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+
 .btn {
     border: none;
     padding: 15px 0;
@@ -81,6 +88,57 @@ body {
 }
 
 .btn.btn-login {
-    background-color: #B0D8DA;
+    background-color: #AFD7D9;
     color: white;
+}
+
+.btn.btn-login:hover {
+    background-color: #3333;
+}
+
+.btn.btn-google {
+    background-color: white;
+    color: black;
+    border: solid 1px #ccc;
+}
+
+.btn.btn-google:hover {
+    background-color: rgb(238, 238, 238);
+}
+
+.btn.btn-facebook {
+    background-color: rgb(10, 66, 219);
+    color: white;
+    border: solid 1px #ccc;
+}
+
+.btn.btn-facebook:hover {
+    background-color: rgb(20, 7, 190);
+}
+
+.btn.btn-twitter {
+    background-color: rgb(24, 153, 175);
+    color: white;
+    border: solid 1px #ccc;
+}
+
+.btn.btn-twitter:hover {
+    background-color: rgb(20, 117, 129);
+}
+
+.form-container .welcome-screen-container {
+    background-color: #AFD7D9;
+    height: 100%;
+    width: 50%;
+}
+
+.form-container .welcome-screen-container .image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.form-container .welcome-screen-container .image-container p {
+    text-align: center;
+    color: white;
+    background-color: #AFD7D9;
 }
